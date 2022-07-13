@@ -1,0 +1,141 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.header {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  padding-right: 15px;
+}
+
+a {
+  color: white;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.information {
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40PX;
+  margin-bottom: 20px;
+}
+.text {
+  width: 400px;
+  height: 200px;
+}
+.placeholder {
+  width: 500px;
+  height: 120px;
+  background-color: darkgray;
+  text-align: center;
+  padding-top: 80px;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 15px 8px 15px;
+  color: white;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3882F6;
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.block {
+  width: 180px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.describe {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  height: 80px;
+  padding: 70px;
+  font-style: italic;
+}
+
+
+.author {
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.footer {
+  display:flex;
+  background-color: #3882F6;
+  height: 40px;
+  border-radius: 5px;
+  margin: 80px 200px 80px 200px;
+  padding: 30px 100px 30px 100px;
+  color: white;
+  justify-content: space-between;
+} 
+
+h5, p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer button {
+  border: 2px solid white;
+  border-radius: 5px;
+}
